@@ -1,0 +1,39 @@
+.tags-section {
+    margin: 1rem 0;
+    background-color: #ffffff;
+    border: none;
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+    box-sizing: border-box;
+}
+
+.field-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.tag-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 100%; /* Prevent overflow */
+    justify-content: flex-start; /* Align tags to the left */
+}
+
+.tag-btn {
+    border: 1px transparent;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap; /* Prevent text from wrapping inside buttons */
+    flex-shrink: 0; /* Prevent buttons from shrinking too much */
+}
+
+.tag-btn:hover {
+    background-color: #004aad;
+}
+
+.tag-btn.selected {
+    font-weight: bold;
+}

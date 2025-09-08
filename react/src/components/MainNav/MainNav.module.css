@@ -1,0 +1,39 @@
+#main-nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(248, 249, 250, 0.8);
+    padding: 1rem;
+    z-index: 10;
+    border: solid 50px white;
+}
+
+.logo {
+    width: 100%;
+    object-fit: contain;
+}
+
+div.main-nav-search-results {
+    font-size: 24px;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+/* Line Separating Nav and Main */
+.wrapper {
+    background: transparent;
+    /* border-right: solid 1px white; */
+}
+
+/* .search-results {
+    font-size: small;
+} */
+
+.no-results {
+    font-size: 24px;
+}

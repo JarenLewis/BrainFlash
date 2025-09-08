@@ -1,0 +1,132 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.create-new-deck {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background-color: #097ff5;
+    border: 2px solid #097ff5;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.description-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background-color: #097ff5;
+    border: 2px solid #097ff5;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.tags-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background-color: #097ff5;
+    border: 2px solid #097ff5;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.tag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    max-height: none; /* Remove height limit */
+}
+
+.tag-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.tag-checkbox:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tag-checkbox input[type="checkbox"] {
+    margin-right: 0.5rem;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.tag-name {
+    color: white;
+    font-weight: 500;
+}
+
+.field-label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: white; 
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    max-height: 100px;
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+label.field-label {
+    text-align: left;
+}

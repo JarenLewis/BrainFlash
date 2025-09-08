@@ -1,0 +1,102 @@
+/* Search Bar Style Input Fields */
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+  background-color: #fafafa;
+}
+
+.searchInput:hover {
+  border-color: #b0b0b0;
+}
+
+.searchInput::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+/* Specific styles for title and description inputs */
+.titleInput {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.descriptionInput {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+/* Container for input groups */
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+/* Edit Title / Edit Description */
+.inputLabel {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.inputRow {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.inputGroup {
+  flex: 1;
+}
+
+.inputLabel {
+  color: white;
+}
+
+.updateButton {
+  padding: 0.75rem 1.5rem;
+  background: #1ac745;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px;
+  margin-top: 0.5rem;
+  align-self: center;
+}
+
+.updateButton:hover {
+  background:#00a724;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}

@@ -1,0 +1,11 @@
+#app-footer {
+    grid-area: footer;
+    opacity: 0.2;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+#app-footer a {
+    color: black;
+    font-weight: bold;
+}

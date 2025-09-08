@@ -1,0 +1,12 @@
+.logoError {
+  /* filter: brightness(0) invert(1); flips colors, useful for dark themes */
+}
+
+.errorMessage{
+  color: white;
+  font-size: large;
+}
+
+.errorMessageLink{
+  color: #FFBD59;
+}

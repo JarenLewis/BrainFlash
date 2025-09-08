@@ -1,0 +1,120 @@
+/* White Box */
+.formContainer {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formGroup {
+  margin: 1rem;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Edit Front / Edit Back Texts */
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 26px;
+}
+
+/* Text Boxes */
+.input {
+  width: 90%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Clicking in Text Box */
+.input:focus {
+  outline: none;
+  border-color: #3399ff;
+  box-shadow: 0 0 0 2px rgba(51, 153, 255, 0.2);
+}
+
+/* Update Card Button */
+.submitBtn {
+  background-color: #3399ff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitBtn:hover {
+  background-color: #267acc;
+}
+
+.submitBtn:active {
+  background-color: #1e5f99;
+}
+
+.toggleWrapper {
+  display: block;
+  margin: 1rem;
+  
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height:0;
+}
+
+.slider {
+  position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 24px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s;
+  
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+

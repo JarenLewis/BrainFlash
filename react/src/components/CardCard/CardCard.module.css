@@ -1,0 +1,9 @@
+.card-tags {
+  font-size: 12px;
+  color: lightslategray;
+}
+
+.image {
+  max-height: 90px;
+  max-width: 100%;
+}
