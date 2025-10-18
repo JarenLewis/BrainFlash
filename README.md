@@ -1,1 +1,3 @@
-A functional website where users can create, edit, and delete flashcards. 
+A full stack program where users can create, edit, tag, and assign flashcards to any deck you've created.
+
+
